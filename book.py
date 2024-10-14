@@ -1,5 +1,6 @@
 book_lst = []
-while True:
+stop =''
+while stop !='нет':
     def book_plass(book):
         book_lst.append(book)
     def book_minus(book):
@@ -15,3 +16,4 @@ while True:
         book_minus(input('напиши книгу'))
     elif menu == 4:
         book_lst.clear()
+    stop = input('продолжить?')
